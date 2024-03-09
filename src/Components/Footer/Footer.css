@@ -1,0 +1,9 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.footcont{
+    width: 50%;
+    margin: 5px;
+}
