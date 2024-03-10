@@ -7,3 +7,14 @@
     width: 50%;
     margin: 5px;
 }
+.mainfoot{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
+img{
+    margin: 2px;
+}
+.footlink{
+    text-decoration: none;
+    color: white;
+}

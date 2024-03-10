@@ -1,9 +1,10 @@
 .navbar{
-    /* background-color: black;
-    color: white; */
+    background-color: rgb(39, 39, 39);
+    color: white;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 70px;
 }
 .logo{
     background-image: url(./CBstudiologo.png);
@@ -31,7 +32,7 @@ li{
     margin: 5px;
 }
 .active-class{
-    color: black;
+    color: rgb(253, 252, 252);
     text-decoration: none;
     font-weight: bold;
 }
