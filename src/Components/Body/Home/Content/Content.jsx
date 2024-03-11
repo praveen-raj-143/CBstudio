@@ -4,7 +4,7 @@ import Morepics from './Morepics/Morepics'
 import { Link } from 'react-router-dom'
 
 const Content = () => {
-    const [click, setClick]=useState(false);
+    const [click, setClick]=useState(true);
 
     const morecontent=()=>{
         setClick(!click)
