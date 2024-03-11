@@ -1,0 +1,17 @@
+.contentimg{
+    background-image: url(./Pics/_DSC1137.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+.contenttext{
+    text-align: center;
+    position: relative;
+    top: 350px;
+}
+.contenttextt{
+    text-align: start;
+    margin-left: 20px;
+}

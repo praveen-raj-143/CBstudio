@@ -1,0 +1,112 @@
+.morepics{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: fit-content;
+    height: fit-content;
+}
+.moreitem{
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 4px;
+    border-radius: 50%;
+}
+.moreitem:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 0%;
+    cursor: pointer;
+    background-size: contain;
+}
+.one{
+    background-image: url(../Pics/_DSC0357.jpg);
+}
+.two{
+    background-image: url(../Pics/_DSC0467.JPG);
+}
+.three{
+    background-image: url(../Pics/_DSC0471.JPG);
+}
+.four{
+    background-image: url(../Pics/_DSC0500.JPG);
+}
+.five{
+    background-image: url(../Pics/_DSC0559.JPG);
+}
+.six{
+    background-image: url(../Pics/_DSC0626.JPG);
+}
+.seven{
+    background-image: url(../Pics/_DSC0681.JPG);
+}
+.eight{
+    background-image: url(../Pics/_DSC0684.JPG);
+}
+.nine{
+    background-image: url(../Pics/_DSC0692.JPG);
+}
+.onezero{
+    background-image: url(../Pics/_DSC0699.JPG);
+}
+.oneone{
+    background-image: url(../Pics/_DSC0780-Edit.JPG);
+}
+.onetwo{
+    background-image: url(../Pics/_DSC0798.JPG);
+}
+.onethree{
+    background-image: url(../Pics/_DSC0800.JPG);
+}
+.onefour{
+    background-image: url(../Pics/_DSC1039.JPG);
+}
+.onefive{
+    background-image: url(../Pics/_DSC9404.JPG);
+}
+.onesix{
+    background-image: url(../Pics/_DSC9288.JPG);
+}
+.oneseven{
+    background-image: url(../Pics/_DSC9316.JPG);
+}
+.oneeight{
+    background-image: url(../Pics/_DSC9343.JPG);
+}
+.onenine{
+    background-image: url(../Pics/_DSC9375.JPG);
+}
+.twozero{
+    background-image: url(../Pics/_DSC9397.jpg);
+}
+.twoone{
+    background-image: url(../Pics/_DSC9413.JPG);
+}
+.twotwo{
+    background-image: url(../Pics/_DSC9559.JPG);
+}
+.twothree{
+    background-image: url(../Pics/_DSC9563.JPG);
+}
+.twofour{
+    background-image: url(../Pics/_DSC9565.JPG);
+}
+.twofive{
+    background-image: url(../Pics/_DSC9592.JPG);
+}
+.twosix{
+    background-image: url(../Pics/_DSC9596.JPG);
+}
+.twoseven{
+    background-image: url(../Pics/_DSC9769.jpg);
+}
+.twoeight{
+    background-image: url(../Pics/_DSC9785.JPG);
+}
+.twonine{
+    background-image: url(../Pics/_DSC9951.JPG);
+}
+
+
