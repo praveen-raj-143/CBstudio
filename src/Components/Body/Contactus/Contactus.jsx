@@ -28,7 +28,7 @@ const Contactus = () => {
                 <img src="https://ongrid.in/images/businessInquiries.svg" alt="not found" /> <p>630 490 8756</p>
               </div>
               <div className='adressitem'>
-                <img src="https://ongrid.in/images/businessInquiries.svg" alt="not found" /> <p> Business Inquiries - cbphotopactory@gmail.com</p>
+                <img src="https://ongrid.in/images/businessInquiries.svg" alt="not found" /> <p>cbphotopactory@gmail.com</p>
               </div>
               
             </div>

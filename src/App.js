@@ -8,6 +8,9 @@ const App = () => {
     <div>
       <Navbar/>
       <Routerfile/>
+      <br/>
+      <br/>
+      <br/>
       <Footer/>
     </div>
   )

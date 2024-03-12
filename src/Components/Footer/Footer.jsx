@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <h2>CB studio</h2>
+        <h4>CB Photography</h4>
         <p><Link to='/aboutus' className='footlink'>About Us</Link></p>
         <p><Link to='/contactus' className='footlink'>Contact Us</Link></p>
         <p>Terms&Conditions</p>
@@ -27,7 +27,7 @@ const Footer = () => {
       </div>
       </div>
       <hr />
-      <p>@2024 CB Studio - “The earth is art, the photographer is only a witness.”</p>
+      <p>@2024 CB Photography - “The earth is art, the photographer is only a witness.”</p>
     </div>
   )
 }

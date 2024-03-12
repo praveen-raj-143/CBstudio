@@ -1,14 +1,15 @@
+import { useState } from 'react'
 import React from 'react'
 import './Content.css'
-// import Morepics from './Morepics/Morepics'
+import Morepics from './Morepics/Morepics'
 import { Link } from 'react-router-dom'
 
 const Content = () => {
-    // const [click, setClick]=useState(true);
+    const [click, setClick]=useState(true);
 
-    // const morecontent=()=>{
-    //     setClick(!click)
-    // }
+    const morecontent=()=>{
+        setClick(!click)
+    }
   return (
     <div className='contentmain'>
         <div className='contentimg'>
@@ -21,13 +22,21 @@ const Content = () => {
             <div className='contenttextt'>
             <p>Please click the following Button to watch live. <Link className='live' to="https://drive.google.com/drive/folders/1HxkdukxLs1ZoC4xfjQELHPLhN9wzhif3?usp=sharing"><button className='livebtn'>Live</button></Link></p>
             <p><Link className='live' to="https://drive.google.com/drive/folders/1HxkdukxLs1ZoC4xfjQELHPLhN9wzhif3?usp=sharing">Click here to watch <span>Live Photos</span></Link></p>
-            {/* <button className='morebtn' onClick={morecontent}>VIEW GALLERY</button> */}
+            {/* <div className='threepics'>
+              <div className='threepicschild childone'></div>
+              <div className='threepicschild childtwo'></div>
+              <div className='threepicschild childthree'></div>
+            </div> */}
+            <button className='morebtn' onClick={morecontent}>VIEW GALLERY</button>
             </div>
             
             </div>
         </div>
-        
-        {/* {click ? "" : <Morepics/>} */}
+        <br />
+        <br />
+        <br />
+        <br />
+        {click ? "" : <Morepics/>}
     </div>
   )
 }

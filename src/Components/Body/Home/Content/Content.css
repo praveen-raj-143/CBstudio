@@ -58,14 +58,34 @@ span{
     .contimg{
         background-image: url(./Pics/IMG-20240313-WA0004.jpg);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         background-position: center;
         width: 100%;
-        height: 350px;
+        height: 450px;
     }
     .morebtn{
         margin: auto;
         width: 120px;
         height: 40px;
+    }
+    .threepics{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .threepicschild{
+        width: 200px;
+        height: 100px;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .childone{
+        background-image: url(./Pics/_DSC1137.JPG);
+    }
+    .childtwo{
+        background-image: url(./Pics//_DSC9316.JPG);
+    }
+    .childthree{
+        background-image: url(./Pics/_DSC9343.JPG);
     }
 }
