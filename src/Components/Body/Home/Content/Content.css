@@ -18,7 +18,7 @@
     text-align: start;
     margin-left: 20px;
     position: relative;
-    top: 320px;
+    top: 310px;
     font-weight: bold;
 }
 .morebtn{
@@ -30,9 +30,12 @@
     
 }
 .livebtn{
-    background-color: white;
+    background-color: red;
     border-radius: 10px;
     cursor: pointer;
+    padding: 5px;
+    color: white;
+    
 }
 .subtitle{
     font-weight: bold;
