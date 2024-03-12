@@ -15,7 +15,7 @@ const Navbar = () => {
                 {/* <li><NavLink to='/aboutus' className={({isActive})=>(isActive ? 'active-class' : 'notactive-class')}>About Us</NavLink></li> */}
             </ul>
         </div>
-        <hr/>
+        
     </div>
   )
 }
