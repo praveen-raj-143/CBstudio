@@ -112,8 +112,11 @@
 
 @media screen and (max-width:769px){
     .moreitem{
+        width: 60px;
+        height: 60px;
+    }
+    .moreitem:hover{
         width: 250px;
         height: 250px;
     }
-    
 }
