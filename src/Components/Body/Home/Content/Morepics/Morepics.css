@@ -12,7 +12,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin: 4px;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 .moreitem:hover{
     width: 500px;

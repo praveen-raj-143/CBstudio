@@ -1,7 +1,7 @@
 .contentimg{
-    background-image: url(./Pics/_DSC1137.JPG);
-    background-repeat: no-repeat;
-    background-size: cover;
+    /* background-image: url(./Pics/_DSC1137.JPG); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
     width: 100%;
     height: 600px;
     color: rgb(0, 0, 0);
@@ -11,15 +11,18 @@
 }
 .contenttext{
     text-align: center;
-    position: relative;
-    top: 80px;
+    /* position: relative;
+    top: 80px; */
 }
 .contenttextt{
     text-align: start;
     margin-left: 20px;
-    position: relative;
-    top: 310px;
+    /* position: relative;
+    top: 310px; */
     font-weight: bold;
+}
+.contimg{
+    background-image: url(./Pics/IMG-20240313-WA0004.jpg);
 }
 .morebtn{
     width: 170px;
@@ -48,9 +51,17 @@ span{
     top: -20px;
 } */
 @media screen and (max-width:769px){
-    .contentimg{
+    /* .contentimg{
         background-image: url(./Pics/_DSC1039.JPG);
         text-shadow: 2px 2px 2px rgb(61, 58, 58);
+    } */
+    .contimg{
+        background-image: url(./Pics/IMG-20240313-WA0004.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        width: 100%;
+        height: 350px;
     }
     .morebtn{
         margin: auto;
