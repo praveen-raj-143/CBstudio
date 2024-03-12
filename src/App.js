@@ -5,7 +5,7 @@ import Footer from './Components/Footer/Footer'
 import Routerfile from './Routing/Routerfile'
 const App = () => {
   return (
-    <div>
+    <div className='grand'>
       <Navbar/>
       <hr/>
       <Routerfile/>

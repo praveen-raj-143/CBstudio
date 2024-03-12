@@ -14,8 +14,8 @@ const Content = () => {
     <div className='contentmain'>
         <div className='contentimg'>
             <div className='contenttext'>
-            <h1>Vamsi & Meghana</h1>
-            <p className='subtitle'>WEDNESDAY, MARCH 13 2024</p>
+            <h3>Vamsi weds Meghana</h3>
+            {/* <p className='subtitle'>WEDNESDAY, MARCH 13 2024</p> */}
             <div className='contimg'>
               
             </div>
