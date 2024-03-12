@@ -7,7 +7,7 @@ const App = () => {
   return (
     <div className='grand'>
       <Navbar/>
-      <hr/>
+      {/* <hr/> */}
       <Routerfile/>
       <br/>
       <br/>
