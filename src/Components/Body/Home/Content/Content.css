@@ -4,7 +4,9 @@
     background-size: cover;
     width: 100%;
     height: 600px;
-    
+    color: rgb(0, 0, 0);
+    /* text-shadow: 2px 2px 2px rgb(97, 97, 97); */
+    /* font-family: Roboto; */
 }
 .contenttext{
     text-align: center;
@@ -14,4 +16,26 @@
 .contenttextt{
     text-align: start;
     margin-left: 20px;
+}
+.morebtn{
+    width: 170px;
+    height: 50px;
+    background-color: rgba(240, 248, 255, 0);
+    cursor: pointer;
+    font-weight: bold;
+}
+.livebtn{
+    background-color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+/* .contentmain{
+    position: relative;
+    top: -20px;
+} */
+@media screen and (max-width:769px){
+    .contentimg{
+        background-image: url(./Pics/_DSC1039.JPG);
+        text-shadow: 2px 2px 2px rgb(61, 58, 58);
+    }
 }

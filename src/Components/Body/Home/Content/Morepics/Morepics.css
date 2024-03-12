@@ -20,6 +20,7 @@
     border-radius: 0%;
     cursor: pointer;
     background-size: contain;
+    background-position: center;
 }
 .one{
     background-image: url(../Pics/_DSC0357.jpg);
@@ -109,4 +110,10 @@
     background-image: url(../Pics/_DSC9951.JPG);
 }
 
-
+@media screen and (max-width:769px){
+    .moreitem{
+        width: 250px;
+        height: 250px;
+    }
+    
+}
