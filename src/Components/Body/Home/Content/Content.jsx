@@ -20,7 +20,7 @@ const Content = () => {
               
             </div>
             <div className='contenttextt'>
-            <p>Please click the following Button to watch live. <Link className='live' to="https://drive.google.com/drive/folders/1HxkdukxLs1ZoC4xfjQELHPLhN9wzhif3?usp=sharing"><button className='livebtn'>Live</button></Link></p>
+            <p>Please click the following Button to watch live. <Link className='live' to="https://www.youtube.com/live/eQdZD0tSWi8?feature=shared"><button className='livebtn'>Live</button></Link></p>
             <p><Link className='live' to="https://drive.google.com/drive/folders/1HxkdukxLs1ZoC4xfjQELHPLhN9wzhif3?usp=sharing">Click here to watch <span>Live Photos</span></Link></p>
             {/* <div className='threepics'>
               <div className='threepicschild childone'></div>
